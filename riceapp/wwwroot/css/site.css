@@ -1,0 +1,300 @@
+body {
+    background-image:url("/Images/backgroung.jpg");
+    background-size:cover;
+    background-attachment:fixed;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+
+}
+
+    nav .logo {
+        font-size: 1.5em;
+    }
+
+    nav ul {
+        list-style: none;
+        display: flex;
+        gap: 20px;
+    }
+
+        nav ul li {
+            display: inline;
+        }
+
+            nav ul li a {
+                color: white;
+                text-decoration: none;
+            }
+
+#home {
+    background: url('hero.jpg') no-repeat center center/cover;
+    color:black;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+    #home h1 {
+        font-size: 2.5em;
+    }
+
+    #home p {
+        font-size: 1.2em;
+    }
+
+    #home button {
+        padding: 10px 20px;
+        font-size: 1em;
+        background-color: #5cb85c;
+        color: white;
+        border: none;
+        cursor: pointer;
+    }
+
+#products {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+    #products h2 {
+        font-size: 2em;
+        margin-bottom: 20px;
+    }
+
+.product-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.product-unique-1 {
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+    width: 200px;
+}
+
+    .product-unique-1 img {
+        width: 100%;
+        height: auto;
+    }
+
+    .product-unique-1 h3 {
+        font-size: 1.2em;
+        margin: 10px 0;
+    }
+
+    .product-unique-1 p {
+        font-size: 1em;
+        color: #333;
+    }
+
+    .product-unique-1 button {
+        padding: 10px;
+        background-color: #5cb85c;
+        color: white;
+        border: none;
+        cursor: pointer;
+    }
+
+.product-unique-2 {
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+    width: 200px;
+}
+
+    .product-unique-2 img {
+        width: 100%;
+        height: auto;
+    }
+
+    .product-unique-2 h3 {
+        font-size: 1.2em;
+        margin: 10px 0;
+    }
+
+    .product-unique-2 p {
+        font-size: 1em;
+        color: #333;
+    }
+
+    .product-unique-2 button {
+        padding: 10px;
+        background-color: #5cb85c;
+        color: white;
+        border: none;
+        cursor: pointer;
+    }
+
+.product-unique-3 {
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+    width: 200px;
+}
+
+    .product-unique-3 img {
+        width: 100%;
+        height: auto;
+    }
+
+    .product-unique-3 h3 {
+        font-size: 1.2em;
+        margin: 10px 0;
+    }
+
+    .product-unique-3 p {
+        font-size: 1em;
+        color: #333;
+    }
+
+    .product-unique-3 button {
+        padding: 10px;
+        background-color: #5cb85c;
+        color: white;
+        border: none;
+        cursor: pointer;
+    }
+.product-unique-4 {
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+    width: 200px;
+}
+.product-unique-4 img {
+    width: 100%;
+    height: auto;
+}
+
+.product-unique-4 h3 {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.product-unique-4 p {
+    font-size: 1em;
+    color: #333;
+}
+
+.product-unique-4 button {
+    padding: 10px;
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.product-unique-5 {
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+    width: 200px;
+}
+.product-unique-5 img {
+    width: 100%;
+    height: auto;
+}
+
+.product-unique-5 h3 {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.product-unique-5 p {
+    font-size: 1em;
+    color: #333;
+}
+
+.product-unique-5 button {
+    padding: 10px;
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.product-unique-6 {
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+    width: 200px;
+}
+
+.product-unique-6 img {
+    width: 100%;
+    height: auto;
+}
+
+.product-unique-6 h3 {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.product-unique-6 p {
+    font-size: 1em;
+    color: #333;
+}
+
+.product-unique-6 button {
+    padding: 10px;
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    margin-top: 10px;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.brorice {
+    height: 196px;
+    width: 196px;
+}
+
+.allimg {
+    display: flex;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    justify-content: center;
+    margin: auto;
+}
+
+.homee {
+    text-align: center;
+}
+
+.about{
+    border: 2px solid #000000;
+    display:flex;
+    padding:2px; 
+    
+}
+
+.ab{
+    width:50%;
+    margin:10px;
+    overflow:hidden;
+    text-align:center;
+    justify-content:center;
+}
